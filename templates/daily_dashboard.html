@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>하루 활동성 대시보드</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f7f9fc;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .date {
+            color: #555;
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+        #chart {
+            width: 90%;
+            margin: 20px auto;
+        }
+        .info-box {
+            width: 90%;
+            margin: 20px auto;
+            background: #e3f2fd;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        p {
+            color: #555;
+            line-height: 1.6;
+            font-size: 16px;
+        }
+        strong {
+            color: #1565c0;
+        }
+        .avg-score {
+            font-weight: bold;
+        }
+        .no-movement-hours {
+            color: red;
+            font-weight: bold;
+        }
+        .missing-hours {
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>하루 활동성 대시보드</h1>
+    <div class="date">날짜: {{ current_day }}</div>
+    <div id="chart">{{ chart_html|safe }}</div>
+    <div class="info-box">
+        <p><strong>평균 활동성 점수:</strong>
+            <span class="avg-score">{{ avg_score }}</span>
+        </p>
+        {% if no_movement_hours %}
+        <p><strong>움직임 없었던 시간대:</strong> 
+            <span class="no-movement-hours">{{ ", ".join(no_movement_hours) }}</span>
+        </p>
+        {% endif %}
+        {% if missing_data_hours %}
+        <p><strong>데이터 부족 시간대:</strong> 
+            <span class="missing-hours">{{ ", ".join(missing_data_hours) }}</span>
+        </p>
+        {% endif %}
+        <p>정규화된 점수는 각 시간대의 활동 데이터를 0~1 범위로 변환한 결과입니다. 데이터 부족 시간대는 초록색으로, 움직임이 없었던 시간대는 빨간색으로 표시됩니다.</p>
+    </div>
+</body>
+</html>
