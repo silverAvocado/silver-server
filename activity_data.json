@@ -1,0 +1,352 @@
+{
+    "2024-12-07": {
+        "00:00": {
+            "score": 0.53,
+            "status": "ok"
+        },
+        "02:00": {
+            "score": 0,
+            "status": "ok"
+        },
+        "04:00": {
+            "score": 0.31,
+            "status": "ok"
+        },
+        "06:00": {
+            "score": 0.56,
+            "status": "ok"
+        },
+        "08:00": {
+            "score": 0.26,
+            "status": "ok"
+        },
+        "10:00": {
+            "score": 0,
+            "status": "insufficient_data"
+        },
+        "12:00": {
+            "score": 0.12,
+            "status": "ok"
+        },
+        "14:00": {
+            "score": 0.95,
+            "status": "ok"
+        },
+        "16:00": {
+            "score": 0.32,
+            "status": "ok"
+        },
+        "18:00": {
+            "score": 0.8,
+            "status": "ok"
+        },
+        "20:00": {
+            "score": 0,
+            "status": "insufficient_data"
+        },
+        "22:00": {
+            "score": 0.71,
+            "status": "ok"
+        }
+    },
+    "2024-12-06": {
+        "00:00": {
+            "score": 0.28,
+            "status": "ok"
+        },
+        "02:00": {
+            "score": 0.56,
+            "status": "ok"
+        },
+        "04:00": {
+            "score": 0.97,
+            "status": "ok"
+        },
+        "06:00": {
+            "score": 0,
+            "status": "insufficient_data"
+        },
+        "08:00": {
+            "score": 0.84,
+            "status": "ok"
+        },
+        "10:00": {
+            "score": 0.94,
+            "status": "ok"
+        },
+        "12:00": {
+            "score": 0.57,
+            "status": "ok"
+        },
+        "14:00": {
+            "score": 0.72,
+            "status": "ok"
+        },
+        "16:00": {
+            "score": 0.57,
+            "status": "ok"
+        },
+        "18:00": {
+            "score": 0.6,
+            "status": "ok"
+        },
+        "20:00": {
+            "score": 0.96,
+            "status": "ok"
+        },
+        "22:00": {
+            "score": 0,
+            "status": "insufficient_data"
+        }
+    },
+    "2024-12-05": {
+        "00:00": {
+            "score": 0.55,
+            "status": "ok"
+        },
+        "02:00": {
+            "score": 0,
+            "status": "insufficient_data"
+        },
+        "04:00": {
+            "score": 0,
+            "status": "insufficient_data"
+        },
+        "06:00": {
+            "score": 0.22,
+            "status": "ok"
+        },
+        "08:00": {
+            "score": 0.85,
+            "status": "ok"
+        },
+        "10:00": {
+            "score": 0.46,
+            "status": "ok"
+        },
+        "12:00": {
+            "score": 0.59,
+            "status": "ok"
+        },
+        "14:00": {
+            "score": 0.88,
+            "status": "ok"
+        },
+        "16:00": {
+            "score": 0.68,
+            "status": "ok"
+        },
+        "18:00": {
+            "score": 0.27,
+            "status": "ok"
+        },
+        "20:00": {
+            "score": 0.74,
+            "status": "ok"
+        },
+        "22:00": {
+            "score": 0.9,
+            "status": "ok"
+        }
+    },
+    "2024-12-04": {
+        "00:00": {
+            "score": 0.97,
+            "status": "ok"
+        },
+        "02:00": {
+            "score": 0,
+            "status": "insufficient_data"
+        },
+        "04:00": {
+            "score": 0.72,
+            "status": "ok"
+        },
+        "06:00": {
+            "score": 0.88,
+            "status": "ok"
+        },
+        "08:00": {
+            "score": 0.65,
+            "status": "ok"
+        },
+        "10:00": {
+            "score": 0.95,
+            "status": "ok"
+        },
+        "12:00": {
+            "score": 0,
+            "status": "insufficient_data"
+        },
+        "14:00": {
+            "score": 0.99,
+            "status": "ok"
+        },
+        "16:00": {
+            "score": 0.71,
+            "status": "ok"
+        },
+        "18:00": {
+            "score": 0.19,
+            "status": "ok"
+        },
+        "20:00": {
+            "score": 0.84,
+            "status": "ok"
+        },
+        "22:00": {
+            "score": 0.54,
+            "status": "ok"
+        }
+    },
+    "2024-12-03": {
+        "00:00": {
+            "score": 0.7,
+            "status": "ok"
+        },
+        "02:00": {
+            "score": 0.79,
+            "status": "ok"
+        },
+        "04:00": {
+            "score": 0.21,
+            "status": "ok"
+        },
+        "06:00": {
+            "score": 0.49,
+            "status": "ok"
+        },
+        "08:00": {
+            "score": 0.23,
+            "status": "ok"
+        },
+        "10:00": {
+            "score": 0.17,
+            "status": "ok"
+        },
+        "12:00": {
+            "score": 0.25,
+            "status": "ok"
+        },
+        "14:00": {
+            "score": 0.25,
+            "status": "ok"
+        },
+        "16:00": {
+            "score": 0.22,
+            "status": "ok"
+        },
+        "18:00": {
+            "score": 0.34,
+            "status": "ok"
+        },
+        "20:00": {
+            "score": 0.39,
+            "status": "ok"
+        },
+        "22:00": {
+            "score": 0.69,
+            "status": "ok"
+        }
+    },
+    "2024-12-02": {
+        "00:00": {
+            "score": 0.62,
+            "status": "ok"
+        },
+        "02:00": {
+            "score": 0.51,
+            "status": "ok"
+        },
+        "04:00": {
+            "score": 0.64,
+            "status": "ok"
+        },
+        "06:00": {
+            "score": 0.18,
+            "status": "ok"
+        },
+        "08:00": {
+            "score": 0.38,
+            "status": "ok"
+        },
+        "10:00": {
+            "score": 0.56,
+            "status": "ok"
+        },
+        "12:00": {
+            "score": 0.34,
+            "status": "ok"
+        },
+        "14:00": {
+            "score": 0.23,
+            "status": "ok"
+        },
+        "16:00": {
+            "score": 0.96,
+            "status": "ok"
+        },
+        "18:00": {
+            "score": 0.9,
+            "status": "ok"
+        },
+        "20:00": {
+            "score": 0,
+            "status": "insufficient_data"
+        },
+        "22:00": {
+            "score": 0.51,
+            "status": "ok"
+        }
+    },
+    "2024-12-01": {
+        "00:00": {
+            "score": 0,
+            "status": "insufficient_data"
+        },
+        "02:00": {
+            "score": 0,
+            "status": "insufficient_data"
+        },
+        "04:00": {
+            "score": 0.16,
+            "status": "ok"
+        },
+        "06:00": {
+            "score": 0.48,
+            "status": "ok"
+        },
+        "08:00": {
+            "score": 0.56,
+            "status": "ok"
+        },
+        "10:00": {
+            "score": 0.83,
+            "status": "ok"
+        },
+        "12:00": {
+            "score": 0,
+            "status": "insufficient_data"
+        },
+        "14:00": {
+            "score": 0.38,
+            "status": "ok"
+        },
+        "16:00": {
+            "score": 0,
+            "status": "insufficient_data"
+        },
+        "18:00": {
+            "score": 0.92,
+            "status": "ok"
+        },
+        "20:00": {
+            "score": 0.79,
+            "status": "ok"
+        },
+        "22:00": {
+            "score": 0,
+            "status": "insufficient_data"
+        }
+    }
+}
